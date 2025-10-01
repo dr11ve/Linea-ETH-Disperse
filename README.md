@@ -1,9 +1,4 @@
 # Linea-ETH-Sender
-Python-скрипт для отправки ETH в сети Linea. 
-Читает приватные ключи из private.txt, адреса получателей из recipients.txt и прокси из proxy.txt (опционально). 
-Проверяет баланс, отправляет транзакции с учетом газа и добавляет случайные задержки. 
-Требуются библиотеки web3.py и requests. Настройте RPC-URL, газ и файлы перед запуском.
-Установка:Установите Python 3.6+ и библиотеки: pip install web3 requests
-Запустите: python main.py 
+A Python script for sending ETH to the Linea network. It reads private keys from Private.txt, recipient addresses from Recipients.txt, and proxies from Proxy.txt (optional). It checks balances, sends transactions with gas, and adds random delays. Requires the web3.py libraries and requests. Configure the RPC URL, gas, and files before running. Installation: Install Python 3.6+ and libraries: pip install web3 Requests. Run: python main.py.
 
-Внимание: Храните private.txt в безопасности. Тестируйте в тестовой сети перед использованием в mainnet.
+Caution: Keep the Private.txt file secure. Test the testnet before using it on the mainnet.
